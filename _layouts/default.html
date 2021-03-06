@@ -1,37 +1,22 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Azeez Adeboye, PhD</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
+<html lang="en">
+	
+	{% include head.html %}
+	
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Welcome to my Page!!! I'm Azeez Adeboye!</h1>
-				<p>I'm a seasoned Biostatistician and Data Scientist at University of Fort Hare <em>An Ambassador at eLifeScience</em> A coach and seasoned Youtuber. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:azizadeboye@gmail.com">email</a></li>
-			<li><a href="https://twitter.com/azizadeboye">Twitter</a></li>
-			<li><a href="https://scholar.google.co.za/citations?user=qvU1m3MAAAAJ&hl=en">GoogleScholar</a></li>
-			<li><a href="https://orcid.org/0000-0001-9427-7374">ORCID</a></li>
-			<li><a href="https://publons.com/researcher/1242702/azeez-adeboye">Publon</a></li>
-			<li><a href="https://www.researchgate.net/profile/Azeez-Adeboye-2">Reseachgate</a></li>
-			<li><a href="https://www.instagram.com/azizadeboye">IG</a></li>
-			<li><a href="https://www.youtube.com/channel/UCegCQv-GYjGrHOD3H3_5weQ">Youtube</a></li>
-        		<li><a href="https://github.com/azeezadeboye">github.com/azeezadeboye</a></li>
-			</ul>
-		</footer>
+			
+			{% include header.html %}
+			
+			{{ content }}
+			
+			{% include footer.html %}
+		
+		</div> <!-- /container -->
+	
+	
+		{% include scripts.html %}
+	
 	</body>
+
 </html>
