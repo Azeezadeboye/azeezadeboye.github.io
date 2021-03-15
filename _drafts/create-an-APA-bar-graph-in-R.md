@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to create an APA 7 bar graph
+tags: default
 ---
 
 How to create an APA 7 bar graph
