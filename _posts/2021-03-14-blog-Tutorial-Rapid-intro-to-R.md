@@ -1,7 +1,11 @@
 ---
-layout: post
-title: "Azeez Adeboye, PhD, Introduction to R"
-date: 2021-03-07
+title: 'Tutorial: Rapid intro to R'
+date: 2021-03-14
+permalink: /posts/2021/03/blog-Tutorial-Rapid-intro-to-R/
+tags:
+  - cool posts
+  - category1
+  - category2
 ---
 
 #Tutorial: intro to R
