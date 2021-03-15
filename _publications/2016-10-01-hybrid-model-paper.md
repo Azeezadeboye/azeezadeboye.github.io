@@ -1,9 +1,9 @@
 ---
 title: "Seasonality and trend forecasting of tuberculosis prevalence data in Eastern Cape, South Africa, using a hybrid model"
 collection: publications
-permalink: /publication/2016-paper-title-number-1
+permalink: /publication/2016-10-01-hybrid-model-paper
 excerpt: 'A SARIMA model and a combined model of SARIMA model and a neural network auto-regression (SARIMA-NNAR) model were used in analysing and predicting the TB data from 2010 to 2015. Simulation performance parameters of mean square error (MSE), root mean square error (RMSE), mean absolute error (MAE), mean percent error (MPE), mean absolute scaled error (MASE) and mean absolute percentage error (MAPE) were applied to assess the better performance of prediction between the models.'
-date: 2016
+date: 2016-10-01
 venue: 'International journal of environmental research and public health'
 paperurl: 'https://www.mdpi.com/1660-4601/13/8/757/pdf'
 citation: 'Adeboye Azeez et al. (2020). &quot; Seasonality and trend forecasting of tuberculosis prevalence data in Eastern Cape, South Africa, using a hybrid model.&quot; <i>International journal of environmental research and public health </i>. 53 (3), 194-204.'
