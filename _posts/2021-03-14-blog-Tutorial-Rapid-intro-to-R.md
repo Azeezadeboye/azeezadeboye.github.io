@@ -9,47 +9,44 @@ tags:
 ---
 
 #Tutorial: intro to R
-# Dr. Azeez Adeboye (PhD)
-# Cinvestav-Irapuato
-# When I installed the R program and first saw the R console, I asked myself: now what? How do I enter my data? How can I do a simple T-test or ANOVA with this program? Even though there are many R tutorials on the internet explaining the many functions and features of R, it was quite tedious for me to start using R in a meaningful way. I had to spend over 3 weeks reading instructions and documents to get to a point where I could use R in a productive way. I do use Excel for all my basic calculations and some analysis. I like Excel very much, but I am also aware of its limitations for more advanced statistical analysis, for example for doing PCAs, K-means clustering or general linear models.
-# Therefore, I decided to write this tutorial as a short cut introduction to R with practical examples of statistical analysis. My intention is not to show all the features of R, but rather to list some commands and functions that I commonly use for my work. I do research within the field of biological sciences, particularly in plant biochemistry, metabolomics, maize breeding and microarrays. 
-# The R console has a prompt in which you can type the commands directly. In the following I will put some lines in blue. This refers to command code for R. The # sign denotes comments that are not interpreted by the R console. I use them here to explain some features of R. Copy the lines containing blue text and paste them into the R console. Instead of doing copy-paste from Word to R, you can also open this document in Tinn and select the blue lines and then click on the button send line to R. By observing the output you will learn to use the R program. 
-# Introduction to R (Basic usage)
-# R uses objects and functions. The objects contain data, while the functions use the data inside the objects and perform calculations and give outputs. If you want to see all functions of R then type:
+Dr. Azeez Adeboye (PhD)
+When I installed the R program and first saw the R console, I asked myself: now what? How do I enter my data? How can I do a simple T-test or ANOVA with this program? Even though there are many R tutorials on the internet explaining the many functions and features of R, it was quite tedious for me to start using R in a meaningful way. I had to spend over 3 weeks reading instructions and documents to get to a point where I could use R in a productive way. I do use Excel for all my basic calculations and some analysis. I like Excel very much, but I am also aware of its limitations for more advanced statistical analysis, for example for doing PCAs, K-means clustering or general linear models.
+Therefore, I decided to write this tutorial as a short cut introduction to R with practical examples of statistical analysis. My intention is not to show all the features of R, but rather to list some commands and functions that I commonly use for my work. I do research within the field of biological sciences, particularly in plant biochemistry, metabolomics, maize breeding and microarrays. 
+The R console has a prompt in which you can type the commands directly. In the following I will put some lines in blue. This refers to command code for R. The # sign denotes comments that are not interpreted by the R console. I use them here to explain some features of R. Copy the lines containing blue text and paste them into the R console. Instead of doing copy-paste from Word to R, you can also open this document in Tinn and select the blue lines and then click on the button send line to R. By observing the output you will learn to use the R program. 
+Introduction to R (Basic usage)
+R uses objects and functions. The objects contain data, while the functions use the data inside the objects and perform calculations and give outputs. If you want to see all functions of R then type:
 help()                      # will open a window with general help info (list all functions)
 help(var)		# specific help on the function var (variance)
 help(sd)                   # specific help on the function sd (standard deviation)
 ?sd                   	# alternative way to call for help on the function sd
 
-#Most functions in R need an open and closed bracket for entering variables or attributes for the respective function. This is needed even though sometimes the brackets are left empty.
-#Everything you type in R is case sensitive. As in unix command line, in R you can recall previously typed commands using the up and down arrow keys.
+Most functions in R need an open and closed bracket for entering variables or attributes for the respective function. This is needed even though sometimes the brackets are left empty.
+Everything you type in R is case sensitive. As in unix command line, in R you can recall previously typed commands using the up and down arrow keys.
 
-# Defining and editing objects manually
-#To work with R you first need to define objects. An object can be a variable, a vector, a dataframe or a matrix, depending on the amount of data and its structure. Choose a name for an object that is not a name for a function. Some possible names for objects are: a, b, c, x, y, z, data1, data2, matrix1, model1, etc.
+Defining and editing objects manually
+To work with R you first need to define objects. An object can be a variable, a vector, a dataframe or a matrix, depending on the amount of data and its structure. Choose a name for an object that is not a name for a function. Some possible names for objects are: a, b, c, x, y, z, data1, data2, matrix1, model1, etc.
 b = 9    #to create a variable named b with only 1 value. If you need entering more values then use the combine function as follows:
 x = c(1,3,2,7,9)    #the c function creates objects with several values (vector) 
 y = c(a=1,a=3,b=2,c=7,c=9,d=2,d=3)    #define y with variable names and values
 z=matrix(c(10,20,30,40,50,60),ncol=2) #define matrix with 2 columns. Values are equally distributed into the two columns. The first column is filled first and downwards.
 b; x; y; z  	#show the contents of objects b, x, y and z
  
-# You can choose several symbols to define objects. You can use the symbol =, but also with the symbols of <-   or also -> depending on the side in which you put the variable. I prefer to use = because it is only one keyboard strike, but for some obscure reason most R tutorials use <- .
+You can choose several symbols to define objects. You can use the symbol =, but also with the symbols of <-   or also -> depending on the side in which you put the variable. I prefer to use = because it is only one keyboard strike, but for some obscure reason most R tutorials use <- .
 x = c(1,3,2,7,9)    	#create an object x with 5 components
 x <- c(1,3,2,7,9)    	#alternative option to create the same object x
 c(1,3,2,7,9) -> x    	# alternative option to create the same object x. Note that the orientation of the symbol is inverted if the variable is on the right side
 
-# If you are not very familiar with command line style, or if you are more used to spreadsheet style, a better option to define a matrix object is with the edit(data.frame()) function
+If you are not very familiar with command line style, or if you are more used to spreadsheet style, a better option to define a matrix object is with the edit(data.frame()) function
 
 data1 = edit(data.frame())    # opens a window to define data1 manually
 
-# 
+After you enter the data and close the window of the spreadsheet style editor, your input is saved into the object data1. By clicking on the column labels you can define if the values should be numerical or categorical. You can give names to your variables or leave the default names (var1, var2, var3, etc). If you change the names of the variables, use a short and easy to remember name, so that you can have easy access to it later (attach function). Do not use space or strange characters for the variable names. To see what it is stored in that matrix, simply type the name of the object. Here I used “data1" but you can define any other similar name. 
+The first burden for using R is to enter large amounts of data into objects. The manual entry of data as described previously is sometimes neither practical nor convenient. There are better options to enter data from other files into R. You can import data from the windows clipboard. This works fine for small and medium size datasets. For extremely large data sets (such as microarrays with over 50 thousand data lines) you can import data from external text files. 
 
-#After you enter the data and close the window of the spreadsheet style editor, your input is saved into the object data1. By clicking on the column labels you can define if the values should be numerical or categorical. You can give names to your variables or leave the default names (var1, var2, var3, etc). If you change the names of the variables, use a short and easy to remember name, so that you can have easy access to it later (attach function). Do not use space or strange characters for the variable names. To see what it is stored in that matrix, simply type the name of the object. Here I used “data1" but you can define any other similar name. 
-# The first burden for using R is to enter large amounts of data into objects. The manual entry of data as described previously is sometimes neither practical nor convenient. There are better options to enter data from other files into R. You can import data from the windows clipboard. This works fine for small and medium size datasets. For extremely large data sets (such as microarrays with over 50 thousand data lines) you can import data from external text files. 
+Uploading data from Clipboard
+Rather than typing the data manually with the edit data.frame function, it is possible to import data from Excel or Word via the windows clipboard. For doing this, open your excel file or word document and copy the data table excluding or including row names and column headings. Then go to the R console and type the command:
 
-# Uploading data from Clipboard
-# Rather than typing the data manually with the edit data.frame function, it is possible to import data from Excel or Word via the windows clipboard. For doing this, open your excel file or word document and copy the data table excluding or including row names and column headings. Then go to the R console and type the command:
-
- data1=read.table(file="clipboard", sep="\t")   #for importing without row names and column headings. Column variables will be named V1, V2, V3, consecutively. If the first cell is empty then this allows automatic recognition of row names and headings. This command creates the object “data1" with the contents of the windows clipboard. It transfers the data from the clipboard memory to the R program memory. This works fine for Excel, Word, PowerPoint and many other windows programs. For me this is the most convenient way to import data into R, since I do not need to create text files nor create folders or define working directories. 
+data1=read.table(file="clipboard", sep="\t")   #for importing without row names and column headings. Column variables will be named V1, V2, V3, consecutively. If the first cell is empty then this allows automatic recognition of row names and headings. This command creates the object “data1" with the contents of the windows clipboard. It transfers the data from the clipboard memory to the R program memory. This works fine for Excel, Word, PowerPoint and many other windows programs. For me this is the most convenient way to import data into R, since I do not need to create text files nor create folders or define working directories. 
 
 data1=read.table(file="clipboard", header=T, sep="\t")   #for forcing import with row names and column headings. This option works even if the first cell is not empty.
 
@@ -67,7 +64,7 @@ B	7.46	60.0	0.0
 B	10.99	63.0	1.0
 
 
-#Important notice: The text for the heading names must not include spaces or other strange characters. Also, the data matrix you copy into the clipboard must not contain empty cells. If it does, an error message will appear in the R console: Error en scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  :  la linea 1 no tiene 7 elementos. To avoid such error messages, do not use names with spaces and fill all empty cells in Excel with NA.
+Important notice: The text for the heading names must not include spaces or other strange characters. Also, the data matrix you copy into the clipboard must not contain empty cells. If it does, an error message will appear in the R console: Error en scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  :  la linea 1 no tiene 7 elementos. To avoid such error messages, do not use names with spaces and fill all empty cells in Excel with NA.
 
 #Example of a table with empty cells 	#Corrected table with NA filled cells
 Entry	G   Y	AD	ASI
@@ -82,22 +79,22 @@ B	7.46	NA	0.0
 B	10.99	63.0	1.0
 
 
-# If you have many empty cells in excel, then additional options can correct data recognition and allow the import of tables with empty cells and spaces. Most importantly is the option sep="\t" to avoid importing errors.
+If you have many empty cells in excel, then additional options can correct data recognition and allow the import of tables with empty cells and spaces. Most importantly is the option sep="\t" to avoid importing errors.
 
 data1=read.table(file="clipboard", header=T, sep="\t")
 
 data1=read.table(file="clipboard", header=T, sep="\t", na.strings="")   
 
-#Short note on data import: Some tutorials recommend you to export data from Excel sheets into text files, and then import the data back to R. This is totally unnecessary because you can use the clipboard directly for data import. Nevertheless, sometimes you will have very large amounts of data that cannot fit into the clipboard. For example, when doing microarrays of ten thousand genes. For these cases, you must use the read.table function to import your text file as follows: 
+Short note on data import: Some tutorials recommend you to export data from Excel sheets into text files, and then import the data back to R. This is totally unnecessary because you can use the clipboard directly for data import. Nevertheless, sometimes you will have very large amounts of data that cannot fit into the clipboard. For example, when doing microarrays of ten thousand genes. For these cases, you must use the read.table function to import your text file as follows: 
  
-# Uploading data from text files
-#The R program needs to define a folder to upload and save files. To change the directory in which you want to work go to the menu ->File -> Change directory and select a folder or directory of your choice. You can also do it manually on the console:
+Uploading data from text files
+The R program needs to define a folder to upload and save files. To change the directory in which you want to work go to the menu ->File -> Change directory and select a folder or directory of your choice. You can also do it manually on the console:
 
 setwd("C:/Axel StatisticsR")    	# sets the working directory manually
 getwd()     				#displays the path for the working directory
 dir()            				# lists the files in the current work directory
 
-# for importing data from a tab delimited text file you have several options:
+for importing data from a tab delimited text file you have several options:
 
 data1=read.table("file.txt", header=T, sep="\t", row.names = 1)
 
