@@ -9,7 +9,7 @@ tags:
 ---
 
 # Tutorial: intro to R
-Dr. Azeez Adeboye (PhD)
+#Dr. Azeez Adeboye (PhD)
 When I installed the R program and first saw the R console, I asked myself: now what? How do I enter my data? How can I do a simple T-test or ANOVA with this program? Even though there are many R tutorials on the internet explaining the many functions and features of R, it was quite tedious for me to start using R in a meaningful way. I had to spend over 3 weeks reading instructions and documents to get to a point where I could use R in a productive way. I do use Excel for all my basic calculations and some analysis. I like Excel very much, but I am also aware of its limitations for more advanced statistical analysis, for example for doing PCAs, K-means clustering or general linear models.
 Therefore, I decided to write this tutorial as a short cut introduction to R with practical examples of statistical analysis. My intention is not to show all the features of R, but rather to list some commands and functions that I commonly use for my work. I do research within the field of biological sciences, particularly in plant biochemistry, metabolomics, maize breeding and microarrays. 
 The R console has a prompt in which you can type the commands directly. In the following I will put some lines in blue. This refers to command code for R. The # sign denotes comments that are not interpreted by the R console. I use them here to explain some features of R. Copy the lines containing blue text and paste them into the R console. Instead of doing copy-paste from Word to R, you can also open this document in Tinn and select the blue lines and then click on the button send line to R. By observing the output you will learn to use the R program. 
