@@ -1,0 +1,55 @@
+---
+title: "My Folio 1: "
+excerpt: "Teaching and Learning<br/><img src='/images/500x300.png'>"
+collection: portfolio
+---
+
+* Teaching and Learning objectives
+Self-reflective statement about my teaching philosophy, including your goals, objectives and methods.
+I have always loved learning. My favourite classroom memories are of arriving with no
+expectation and an empty mind, and then sparked by the enthusiasm of an engaging teacher,
+leaving thirsting for further information. In fact, I am addicted to learning. Not only do I want
+to engage students in fascinating aspects of my discipline but I also want to instil a desire for
+lifelong learning. This narrative describes my teaching philosophy to undergraduate and
+Honours students, the journey I have embarked on with the scholarship of teaching and
+learning, as well as some of the challenges I have faced. Reflecting on my path, the narrative
+concludes with the goals that I want to achieve as a teacher by making a difference, cultivating
+in students some values, qualities and characteristics to carry with them through life so they
+can contribute meaningfully to society. The evidence of examples included in the reflective
+narrative is organised in six appendices following References: Appendix A: Teaching
+philosophy (p20), Appendix B: Module development (p22), Appendix C: Teaching and
+learning activities and artefacts (p27), Appendix D: Industry interaction (p39), Appendix E:
+Student feedback (p40) and Appendix F: Student success (p44)
+
+* Teaching and Learning achievements
+  *Teaching philosophy
+I follow the same approach to students as I have for others: respect them as individuals;
+today’s students are not the same as I was, having a different experiential skill set and
+educational upbringing, often facing different, harder challenges. Something important for me
+to remind myself is; why would my students care about what I have to say if I don’t care about
+them in their context? Their success here at the university is my success, consequently their
+results are important to me; hence, I let students know that I want them to learn and to
+succeed as recommended by this quote from John Wooden, one of the most revered coaches
+in the history of sports:
+“Seek opportunities to show you care. The smallest gestures often make the biggest difference.”
+However, students have to realize that they are ultimately responsible for their own learning
+experience so they can become self-directed learners (Rashid & Asghar 2016) conscious of
+their own thinking processes.
+My belief is that students learn best when they actively construct knowledge in relation to what
+they already know (Brampton 2012; DiBiase 2018) and if they are adequately motivated (Xie
+& Reider 2014). Failure to have mastered core concepts undermines a student’s ability to
+advance understanding of new knowledge (Brampton 2012). Every year there are new
+students, bringing with them a new learning context. My modules must be therefore be 
+adaptable to the needs of the particular student group, connecting new information to accurate
+information they already possess, providing a balance between support and challenge
+(Cordingley et al. 2015).
+It is important for students to learn how, and where, to find the right information they need
+and then how to apply this to real world problems. As one only really starts unpacking what
+one has learnt in the workplace, exposure to self-study and research is imperative. The best
+type of learning is through experience and the concept of peer learning within a learning
+community (Gaffney et al. 2008; DeMers 2010) can provide this opportunity. I endeavour
+to expand the learning spaces so that it better approximates what happens outside the
+classroom (Branch 2018).
+
+* Leadership in Teaching and Learning
+
