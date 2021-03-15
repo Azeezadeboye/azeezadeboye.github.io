@@ -1,5 +1,5 @@
 ---
-title: "My Folio 2. "
+title: "Research-scholarship-portfolio "
 excerpt: "Research, scholarship and original achievement and/or other relevant creative work <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
