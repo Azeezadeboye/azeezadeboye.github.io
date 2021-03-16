@@ -7,13 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Azeez Adeboye, PhD"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Azeez Adeboye"
+description              : &description "Azeez Adeboye is a computational Biostatistician and Data scientist at the University of Fort Hare, Alice, South Africa. His reseach focuses on modelling diseases' prevention and control. Highly interested in the areas of research on Applied and Mathematical statistics, infectious diseases, environmental and surveillance statistics, public health, bioinformatics, project management and strategy implementation in various statistical manners.
+                                         His is an R enthusiast currently working on developing his 2nd package. His R programming journey began in 2014 when he was told to run an R script to “simulate and analyze some data”. He took on the challenge and soon realized the power and joy of R programming. Since then he learned a couple of other programming languages including MATLAB, Python and SAS. But his favorite is still by far R. He enjoys sharing his knowledge publicly ([Twitter](https://twitter.com/azizadeboye) & [YouTube channel](https://www.youtube.com/channel/UCegCQv-GYjGrHOD3H3_5weQ)).
+                                         This blog focuses predominantly on R but will cover others occasionally. He enjoys data visualization a lot so you’ll likely find some posts on that, too. Finally, if you don’t enjoy reading that much but would like to watch me code you can do so on my [YouTube channel](https://www.youtube.com/channel/UCegCQv-GYjGrHOD3H3_5weQ). See you there!
+"
+url                      : https://azeezadeboye.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Azeezadeboye/azeezadeboye.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,40 +83,40 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Azeez Adeboye, PhD"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "I'm a computational Biostatistician and Data scientist at the University of Fort Hare, South Africa. Researches on modelling diseases' prevention and control, Applied and Mathematical statistics, infectious diseases, environmental and surveillance statistics, public health, and bioinformatics. His is an R enthusiast currently working on developing his 2nd package."
+  location         : "South Africa"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  googlescholar    : "https://scholar.google.co.za/citations?user=qvU1m3MAAAAJ&hl=en"
+  email            : "azizadeboye@gmail.com
+  researchgate     : "https://www.researchgate.net/profile/Azeez-Adeboye-2"   # example: "https://www.researchgate.net/profile/yourprofile"
+  uri              : "https://publons.com/researcher/1242702/azeez-adeboye"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/Azeezadeboye"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/azizadeboye"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://za.linkedin.com/in/azeez-adeboye-phd-3b2185b1"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/azizadeboye"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "https://www.youtube.com/channel/UCegCQv-GYjGrHOD3H3_5weQ"
   wikipedia        :
 
 
