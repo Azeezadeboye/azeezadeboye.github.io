@@ -12,7 +12,7 @@
       {% endif %}
     {% else %}
       <li><a href="#" class="disabled"><span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span></a></li>
-    {% endif %}  
+    {% endif %}
 
     {% comment %} First page {% endcomment %}
     {% if paginator.page == 1 %}
