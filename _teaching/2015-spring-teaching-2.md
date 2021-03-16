@@ -1,14 +1,14 @@
 ---
 title: "Teaching experience 2"
 collection: teaching
-type: "Training and workshop"
-permalink: /teaching/2016-spring-teaching-1
-venue: "University of South Africa, Department Management Science"
+type: "Workshop"
+permalink: /teaching/2015-spring-teaching-1
+venue: "University 1, Department"
 date: 2015-01-01
-location: "Mthata, South Africa"
+location: "City, Country"
 ---
 
-Teaching students based on the use of SPSS package for data analyses
+This is a description of a teaching experience. You can use markdown like any other post.
 
 Heading 1
 ======
