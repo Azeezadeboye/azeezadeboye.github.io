@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Azeez_Adeboye,PhD"
+title                    : "Azeez_Adeboye"
 title_separator          : "-"
 name                     : &name "Azeez Adeboye"
 description              : &description "Azeez Adeboye is a computational Biostatistician and Data scientist at the University of Fort Hare, Alice, South Africa. His reseach focuses on modelling diseases' prevention and control. Highly interested in the areas of research on Applied and Mathematical statistics, infectious diseases, environmental and surveillance statistics, public health, bioinformatics, project management and strategy implementation in various statistical manners.
@@ -83,12 +83,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Azeez Adeboye, PhD"
+  name             : "Azeez_Adeboye"
   avatar           : "profile.png"
   bio              : "I'm a computational Biostatistician and Data scientist at the University of Fort Hare, South Africa. Researches on modelling diseases' prevention and control, Applied and Mathematical statistics, infectious diseases, environmental and surveillance statistics, public health, and bioinformatics. His is an R enthusiast currently working on developing his 2nd package."
   location         : "South Africa"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.co.za/citations?user=qvU1m3MAAAAJ&hl=en"
   email            : "azizadeboye@gmail.com
   researchgate     : "https://www.researchgate.net/profile/Azeez-Adeboye-2"   # example: "https://www.researchgate.net/profile/yourprofile"
