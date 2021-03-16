@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "A Short Biography & academic description "
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,30 +8,52 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hi everyone!
 
-A data-driven personal website
+Azeez Adeboye is a computational Biostatistician and Data scientist at the University of Fort Hare, Alice, South Africa. His reseach focuses on modelling diseases' prevention and control. Highly interested in the areas of research on Applied and Mathematical statistics, infectious diseases, environmental and surveillance statistics, public health, bioinformatics, project management and strategy implementation in various statistical manners.
+
+His is an R enthusiast currently working on developing my 2nd package. His R programming journey began in 2014 when he was told to run an R script to “simulate and analyze some data”. Having never programmed before at that time he was overwhelmed. But he took on the challenge and soon realized the power and joy of programming. Since then he learned a couple of other programming languages including MATLAB, Python and SAS. But his favorite is still by far R. He enjoys sharing his knowledge and started doing so publicly on [Twitter](https://twitter.com/azizadeboye) and [YouTube channel](https://www.youtube.com/channel/UCegCQv-GYjGrHOD3H3_5weQ) in late 2019.
+
+This blog focuses predominantly on R but will cover others occasionally. He enjoys data visualization a lot so you’ll likely find some posts on that, too. Finally, if you don’t enjoy reading that much but would like to watch me code you can do so on my [YouTube channel](https://www.youtube.com/channel/UCegCQv-GYjGrHOD3H3_5weQ). See you there!
+
+
+A Short Message of Frienship and Love
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+When it comes to friends and the joy that life brings with their presence, I cannot but write from a happy place. When I think of the impact that friends really make and the way that they make life worth living, I realise that good friends deserve the type of love usually reserved for family.
+As the saying goes ‘to have no friend is like dying without a witness’. When I think of the many darlings in my life (male and female), I cannot but wish you the same quality of friendship and love that I have received from these people and I have tried to be their right hand also.
+In genuine friendships lies the true fountain of youthfulness, an elixir of sorts. Not everyone is lucky with friends but the secret to gaining good friends may lie in your loving yourself first, not showing desperation and also in your goodwill. Self-love allows you to determine what is right for you, what associations cause you to blossom and otherwise. Understanding that sometimes, you aren’t even sad but it’s the people around you that cause you to feel inadequate is key. Real friends don’t have time for unhealthy competition or drama, and certainly don’t consider hurting or bringing you down a hilarious sport. They sure don’t take undue advantage of your selflessness either. Be deliberate about who stays in your life, choose your own friends, and if you happen to be chosen, remain only if it brings you joy and has the potential to make you better than your old self, yet giving you room to be of service and impact positively too. 
+When you realize that you don’t have to explain yourself so hard, you don’t have to prove that you are a good person, they get it- they get you; they will defend you in your absence before they get a chance to talk with you, and if you have erred, they’ll scold you in private without putting you down. 
+Screw up or go through a difficult time, only then will you see things and people for what truly is. You’ll find your soul-buddies waiting earnestly for you on the other side of the divide, ushering you into light and recovery. Those, are your true friends; not only do they stick around, you’ll never find them amongst those who kick you when you are on the ground already. And if anyone kicks you while you have fallen yet, those are the kind of people to be weary of always!
+When you are stuck up, and the odds are against you, and you look to family and romance for courage and it’s not coming, when your journey is proving so long without a finish-line in sight, I dare say; look to a friend. 
+Never underestimate how much good a little time-out with a darling friend can do. Good friends believe in you no matter what, you don’t always have to explain yourself because they get it, and if you have acted out of character, they are willing to understand what led you, their mind isn’t ever made up, you’ll always get a chance to speak your truth.
+When you anticipate a good tiding, you can already imagine how their hearts would receive it, your happiness is a great boost to their joy and life and if a difficulty distracts you, they are not complete in their own joy until you are fine.
+Many a victim of depression, sorrow, suicide have lacked a true friend. True friends don’t suffocate you with nosey questions, and sometimes your healing may require you to isolate yourself, but if you make the decision to do so, never take the backdoor, never be without courage, never give up on yourself, think of those who would give up so much to see you happy and bask in the glory of a new day.
+Many times, family doesn’t even come near showing us the kind of faith and love that we get from dutiful friends. You truly cannot appreciate your journey for what it is until you are able to share the highs and lows with great friends. And when you arrive at crossroads, you will find that whatever choice you make will demand from you bravery, you can only be strong for so long, but it won’t tarry before your heart begins to seek the nod and nudge of a good friend.   Real friends are the true heroes.
+All I can say is watch what you eat, watch what you say and watch the company you keep. Friends are like a protecting shield. If you are by yourself for too long, you will become easy target for predators. In your marriage, in your family, you will be more balanced and more protected when you allow good friends shine their light in your world , and you don’t be about always taking but be true and place some good value on loyalty. 
+I wish you the love of true friends, the discernment to identify them and a good heart to nurture their delicate and exhilarating love. And if you are yet to find at least one real friend, you be the one.
+With love,
+Azeez Adeboye
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+No Relationship Is Perfect!
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+We all know this. We're not perfect and therefore our relationships will never be perfect either (Without God). But success in romantic relationships and otherwise have a lot to do with proper communication. In fact, most relationship problems are caused by poor communicatio!
+HERE ARE A FEW COMMUNICATION ISSUES IN ROMANTIC RELATIONSHIPS AND HOW TO WORK THROUGH THEM:
+# 1. The Problem: Misunderstanding words and actions
+It's easy to misinterpret your partner's words, emails, gestures, and actions to mean something other than what he or she intended. We're all human it happens.
+The Solution: Don't immediately jump to conclusions. 
+Instead of assuming you know what the other is thinking, ask for clarification. Continue asking for clarification until you understand what your partner is really saying.
+# 2. The Problem: You don't talk enough. 
+In a long-term relationship, most of us eventually hit a point where we feel we don't communicate much anymore. We don't hang out. We have our routines (wake up, shower, dress, go to work, come home), and most don't involve the other person as much as they should.
+# The Solution: 
+There's a simple fix for not communicating enough recognizing that you're no longer communicating like you once did and talking more. Create some alone time to carve out for just the two of you.
+# 3. The Problem: You're avoiding certain topics with your partner. 
+Perhaps this is the reason that you're not talking to one another anymore. Maybe you're upset with your partner. Either way, you don't feel like discussing it, so instead, you clam up and say nothing. Your walls go up as a way of avoiding the issue.
+# The Solution: 
+You're not benefiting your relationship in any way by avoiding problems. Instead of retreating and putting up big walls, take a long hard look at the issues and face them together. This way, you can work together to come up with a solution.
+# 4. The Problem: You need to be right
+We've all had those times when we couldn't back down from an argument. We're right, we know it, and we have to prove it. So we pick a fight (or continue to beat a dead horse) until we feel we've won.
+# The Solution: 
+Being right isn't as important as having open lines of communication. Being willing to see things from another point of view may not change how you feel, but it does give you the incredible opportunity to learn.
 
 **Markdown generator**
 
