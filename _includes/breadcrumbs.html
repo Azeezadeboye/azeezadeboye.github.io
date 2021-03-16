@@ -25,7 +25,7 @@
           <meta itemprop="position" content="{{ i }}" />
         </li>
         <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
-      {% endif %} 
+      {% endif %}
       {% if forloop.last %}
         <li class="current">{{ page.title }}</li>
       {% else %}
